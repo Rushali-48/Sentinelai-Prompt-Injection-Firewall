@@ -1,0 +1,70 @@
+# ==============================
+# Ruff linters
+# ==============================
+ruff
+
+# ==============================
+# Core Python / Data Processing
+# ==============================
+numpy
+pandas
+
+# ==============================
+# Machine Learning
+# ==============================
+torch
+transformers
+sentence-transformers
+scikit-learn
+accelerate
+safetensors
+
+# ==============================
+# LangChain / RAG
+# ==============================
+langchain
+langchain-community
+langchain-core
+langchain-chroma
+langchain-huggingface
+
+# ==============================
+# Vector Database
+# ==============================
+chromadb
+
+# ==============================
+# LLM Providers
+# ==============================
+langchain-groq
+
+# ==============================
+# API Backend
+# ==============================
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# ==============================
+# Frontend
+# ==============================
+streamlit
+
+# ==============================
+# PDF / Document Processing
+# ==============================
+pypdf
+python-docx
+easyocr
+
+# ==============================
+# HTTP / Utilities
+# ==============================
+requests
+python-dotenv
+
+# ==============================
+# Testing
+# ==============================
+pytest

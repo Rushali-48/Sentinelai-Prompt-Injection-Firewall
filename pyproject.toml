@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 88
+fix = true                 # Auto-fix issues when possible
+exclude = ["*.md", "*.txt", "docs/"]  # Ignore Markdown and docs
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]   # Common error/warning codes
+ignore = ["E501"]          # Ignore line length errors
+
+[tool.ruff.format]
+quote-style = "double"     # Consistent string quotes
+indent-style = "space"

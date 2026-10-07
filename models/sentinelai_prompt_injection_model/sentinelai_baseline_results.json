@@ -1,0 +1,16 @@
+{
+    "model": "ProtectAI/deberta-v3-base-prompt-injection-v2",
+    "type": "pretrained_baseline",
+    "test_samples": 746,
+    "threshold": 0.5,
+    "accuracy": 0.7198391420911529,
+    "precision": 0.7865497076023392,
+    "recall": 0.6641975308641975,
+    "f1": 0.7202141900937081,
+    "false_positive_rate": 0.21407624633431085,
+    "false_negative_rate": 0.3358024691358025,
+    "true_negative": 268,
+    "false_positive": 73,
+    "false_negative": 136,
+    "true_positive": 269
+}
